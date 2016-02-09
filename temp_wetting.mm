@@ -1,4 +1,4 @@
-<map version="docear 1.1" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/home/local/CSI/kr78neqo/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/">
+<map version="docear 1.1" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/home/local/CSI/kr78neqo/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="Designing solid surfaces with desired temperature dependence of wetting behavior" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1450463414017"><hook NAME="MapStyle">
     <properties show_note_icons="true"/>
@@ -169,6 +169,7 @@
 </node>
 <node TEXT="Money and technical resources" POSITION="left" ID="ID_1082352398" CREATED="1450464823139" MODIFIED="1450464842337" HGAP="-730" VSHIFT="40">
 <edge COLOR="#00007c"/>
+<node TEXT="To be decided" ID="ID_1225230696" CREATED="1455011425582" MODIFIED="1455011435218" HGAP="-300" VSHIFT="-20"/>
 </node>
 </node>
 </map>
