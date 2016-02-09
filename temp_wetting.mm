@@ -1,4 +1,4 @@
-<map version="docear 1.1" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/home/local/CSI/kr78neqo/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk">
+<map version="docear 1.1" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/C:/Users/Kaustubh/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="Designing solid surfaces with desired temperature dependence of wetting behavior" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1450463414017"><hook NAME="MapStyle">
     <properties show_note_icons="true"/>
@@ -96,8 +96,16 @@
 <node TEXT="Which predominantly influence dgamma_sl/dT" ID="ID_874559696" CREATED="1451040933023" MODIFIED="1451040960512"/>
 </node>
 </node>
-<node TEXT="Solvation and capillary waves" ID="ID_19652608" CREATED="1451331679005" MODIFIED="1451331908991">
-<node TEXT="Effect of capillary waves on solvation and what does it mean wrt interfacial free energies" ID="ID_106467715" CREATED="1451331927499" MODIFIED="1451332373179"/>
+<node TEXT="Solvation and capillary waves" ID="ID_19652608" CREATED="1451331679005" MODIFIED="1455048017904" HGAP="450" VSHIFT="-40">
+<node TEXT="Consider the change in the free energy of a system when a l-v interface of a solvent is brought in contact with a solute that is fixed in space. Let the entire system be in gran canonical ensemble. Therefore difference in free energy is given as follows:" ID="ID_106467715" CREATED="1451331927499" MODIFIED="1455046597657">
+<hook EQUATION="\Delta\mu(r)) = \Omega^f(r) - \Omega^i(r)" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="Here the superscripts f and i denote the state with solute in contact with l-v interface and the one infinitely away from it. Let us denote all the similar differences in extensive quantities by operator Delta,. Following from the second law, the above equation can then be written in a differential form as follows:" ID="ID_1903608681" CREATED="1455046176112" MODIFIED="1455048027379" HGAP="23" VSHIFT="-20">
+<hook EQUATION="d\Delta\mu(r) = -\Delta S dT -P d \Delta V - \Delta N_s_o_l d \mu_{sol}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="We assume here that the solvent is at liquid-vapor coexistence conditions and that the system is at constant volume. Then the temperature derivative of free energy is given by" ID="ID_1377597507" CREATED="1455048001596" MODIFIED="1455048332239">
+<hook EQUATION="\frac{d\Delta\mu}{d T} = -\Delta S -\Delta N_s_o_l \frac{d\mu_s_o_l}{d T}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
 <node TEXT="Effect of solute on capillary waves and what does it mean to temperature dependence" ID="ID_1103070320" CREATED="1451332373785" MODIFIED="1451332413102"/>
 <node TEXT="How this may connect to solid surfaces" ID="ID_276381896" CREATED="1451332413595" MODIFIED="1451332637790"/>
 </node>
