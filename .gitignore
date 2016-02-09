@@ -1,0 +1,9 @@
+*.pdf
+*.out
+*.pptx
+*.log
+*.aux
+literature_repository/
+plots/
+_data/ 
+
