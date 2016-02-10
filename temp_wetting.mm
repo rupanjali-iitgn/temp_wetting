@@ -100,13 +100,16 @@
 <node TEXT="Consider the change in the free energy of a system when a l-v interface of a solvent is brought in contact with a solute that is fixed in space. Let the entire system be in gran canonical ensemble. Therefore difference in free energy is given as follows:" ID="ID_106467715" CREATED="1451331927499" MODIFIED="1455046597657">
 <hook EQUATION="\Delta\mu(r)) = \Omega^f(r) - \Omega^i(r)" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="Here the superscripts f and i denote the state with solute in contact with l-v interface and the one infinitely away from it. Let us denote all the similar differences in extensive quantities by operator Delta,. Following from the second law, the above equation can then be written in a differential form as follows:" ID="ID_1903608681" CREATED="1455046176112" MODIFIED="1455048027379" HGAP="23" VSHIFT="-20">
+<node TEXT="Here the superscripts f and i denote the state with solute in contact with l-v interface and the one where it is in contact with saturated vapor, respectively. Let us denote all the similar differences in extensive quantities by operator Delta,. Following from the second law, the above equation can then be written in a differential form as follows:" ID="ID_1903608681" CREATED="1455046176112" MODIFIED="1455132131096" HGAP="23" VSHIFT="-20">
 <hook EQUATION="d\Delta\mu(r) = -\Delta S dT -P d \Delta V - \Delta N_s_o_l d \mu_{sol}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
 <node TEXT="We assume here that the solvent is at liquid-vapor coexistence conditions and that the system is at constant volume. Then the temperature derivative of free energy is given by" ID="ID_1377597507" CREATED="1455048001596" MODIFIED="1455048332239">
 <hook EQUATION="\frac{d\Delta\mu}{d T} = -\Delta S -\Delta N_s_o_l \frac{d\mu_s_o_l}{d T}" NAME="plugins/latex/LatexNodeHook.properties"/>
 </node>
-<node TEXT="Effect of solute on capillary waves and what does it mean to temperature dependence" ID="ID_1103070320" CREATED="1451332373785" MODIFIED="1451332413102"/>
+<node TEXT="Note that if the l-v interface was initially not influenced by any external field, then under saturation condition, the free energy change due to its rise upto the solute will be zero. In other words \Delta \mu above, only represents the change due to solute. Therefore \Delta S and \Delta N_s_o_l are mainly due to the fixed solute. The entropy change may be further divided into the contributions coming from the solute itself (i), solute-solvent interactions (uv) and solvent-solvent interactions (v v). The first part depends on the temperature and the intramolecular interactions of the solute. The second part consists of fluctuations in the solute-solvent interaction energy. The final part is due to the changes in the solvent-solvent interactions that are brought about by the solute. Note that the \Delta S_{uv} also contains the indirect effect of solvent-solvent changes on solute-solvent fluctuations. Typically, the &quot;structural&quot; changes in the solvent brought about by the solute are included in the third term, whereas the &quot;effect of fluctuations in the solvent&quot; is accounted in the second term.  \Delta N_s_o_l can be understood as the excess number of solvent molecules in presence of solute." ID="ID_863437212" CREATED="1455131754626" MODIFIED="1455135231416">
+<hook EQUATION="\Delta S = \Delta S_i + \Delta S_{uv} + \Delta S_{vv}" NAME="plugins/latex/LatexNodeHook.properties"/>
+</node>
+<node TEXT="The capillary waves contribute to the second term." ID="ID_1103070320" CREATED="1451332373785" MODIFIED="1455135483291"/>
 <node TEXT="How this may connect to solid surfaces" ID="ID_276381896" CREATED="1451332413595" MODIFIED="1451332637790"/>
 </node>
 </node>
