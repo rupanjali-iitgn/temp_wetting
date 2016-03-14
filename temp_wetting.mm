@@ -1,7 +1,7 @@
-<map version="docear 1.1" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/home/local/CSI/kr78neqo/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/">
+<map version="docear 1.1" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/C:/Users/Kaustubh/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="Designing solid surfaces with desired temperature dependence of wetting behavior" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1450463414017"><hook NAME="MapStyle">
-    <properties show_note_icons="true"/>
+    <properties show_note_icons="true" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -66,10 +66,21 @@
 <edge COLOR="#00ffff"/>
 <node TEXT="Research status (international)" ID="ID_1392626561" CREATED="1450463444390" MODIFIED="1450463704312" MOVED="1450463704325">
 <node TEXT="Theoretical" ID="ID_688891944" CREATED="1457809443000" MODIFIED="1457809456806" MOVED="1457809448908">
-<node TEXT="Temperature dependence studied in connection with the wetting transition" ID="ID_1917907773" CREATED="1457809458247" MODIFIED="1457809524086"/>
-<node TEXT="Arguments based on squared gradient theory based on the temperature dependence of solid-fluid interfacial free energies" ID="ID_603938059" CREATED="1457809524547" MODIFIED="1457809568989"/>
-<node TEXT="Work of Pandit and Fisher and Nakanishi and Fisher consider the &quot;mean-field&quot; effect of solid-fluid interfaction. Especially the one of Nakanishi and Fisher compares the temperature depndence over all the regimes (from partial wetting to complete wetting)" ID="ID_1622008046" CREATED="1457809569856" MODIFIED="1457809707273"/>
-<node TEXT="Observed the rich temperature-dependent behavior. Especially inversion of temperature dependence of contact angle with substrate-fluid interaction strength" ID="ID_5264356" CREATED="1457809866614" MODIFIED="1457809928649"/>
+<node TEXT="The temperature dependence of wetting phenomenon has been closely connected with the study of wetting  from the perspective of phase coexistence. Basically, one can consider the two scenarios: 1) a solid-vapor interface being partially wet by the liquid and 2) solid-vapor interface being completely wet by the liquid as two surface &quot;phases&quot;. Similar to coexistence between say liquid and vapor these two surface phases can be in coexistence at certain system parametrers. The parameters of interest are temperature or those related to the nature of the solid surface like the strength of interaction between solid and liquid, surface roughness etc. Analogous to wetting transitions, one may consider drying transitions where the role of liquid and vapor in the above tweo scfenarios are interchanged. [The adjacent figure 1 denotes the wetting and drying transitions]" ID="ID_1917907773" CREATED="1457809458247" MODIFIED="1457981933554"/>
+<node TEXT="In1977 Cahn proposed that there exists a temperature below the critical temperature of fluid at which the wetting transition on a given solid surface occurs. The argument was based on the comparison between the temperature dependence of \gamma_{sv} - \gamma_{sl}  and that of \gamma_{lv}. Cahn used a theoretical approach called as square-gradient theory and did not consider the atrraction between solid and liquid in explicit detail." ID="ID_1762818689" CREATED="1457983000888" MODIFIED="1457986043937">
+<attribute NAME="key" VALUE="cahn1977critical"/>
+<attribute NAME="journal" VALUE="The Journal of Chemical Physics"/>
+<attribute NAME="authors" VALUE="Cahn, John W"/>
+<attribute NAME="title" VALUE="Critical point wetting"/>
+<attribute NAME="year" VALUE="1977"/>
+</node>
+<node TEXT="Later, the square-gradient theory was modified by Nakanishi and Fisher to include the dependence of solid-fluid attraction. Specifically, Nakanishi and Fisher proposed a phase diagram which represented the coexistence lines for the wetting and drying transitions in the plot of temperature vs a parameter denoting the strength of solid-fluid interaction. Their phase diagram shows that for weak solid-liquid interaction, increase in temperature brings the system closer to drying transition. Whereas for strong solid-fluid interactions, increase in temperature brings the system closer to the wetting transition" ID="ID_1622008046" CREATED="1457809569856" MODIFIED="1457986053424">
+<attribute NAME="key" VALUE="nakanishi1982multicriticality"/>
+<attribute NAME="journal" VALUE="Physical Review Letters"/>
+<attribute NAME="authors" VALUE="Nakanishi, Hisao and Fisher, Michael E"/>
+<attribute NAME="title" VALUE="Multicriticality of wetting, prewetting, and surface transitions"/>
+<attribute NAME="year" VALUE="1982"/>
+</node>
 <node TEXT="Limitations: 1) Does not consider molecular level details but the thermodynamics of the system in terms of the system parameters. 2) Complexity of systems is limited" ID="ID_1656087306" CREATED="1457809707574" MODIFIED="1457809865177"/>
 <node TEXT="DFT work of Sullivan, Berim-Ruckenstein and Kuipers-Blokhuis (J. Chem. Phys, 131, 044702 (2009)) have made similar observations as Nakanishi and Fisher. Here molecular-level details were considered like the interaction between solid-surface atoms and fluid. Especially, Berim-Ruckenstein even commented on the technological significance of the observed temp-dependence" ID="ID_1378614173" CREATED="1457809956064" MODIFIED="1457810413819"/>
 <node TEXT="Still  the complexity of systems limited" ID="ID_678529580" CREATED="1457810414162" MODIFIED="1457810454346"/>
@@ -80,7 +91,6 @@
 <node TEXT="It should be noted that studies were performed with wetting of a liquid on another liquid to understand temperature dependence near wetting transitions" ID="ID_1486553890" CREATED="1457810931240" MODIFIED="1457811003068"/>
 <node TEXT="Neumann and colleagues performed extensive measurements on the temperature dependence of wetting behavior of different polymer surfaces. The srface characteristics that they focussed on included the overall nature of the surface and  not the microscopic details." ID="ID_121688724" CREATED="1450638836342" MODIFIED="1457970220504"/>
 <node TEXT="Work with microcalorimetry" ID="ID_1314084600" CREATED="1450638866409" MODIFIED="1450638909789"/>
-<node TEXT="Enthalpy-entropy compensation or &quot;independence&quot; of the two" ID="ID_30644458" CREATED="1450640781570" MODIFIED="1450723771859"/>
 </node>
 <node TEXT="Computational" ID="ID_1521593594" CREATED="1450521733895" MODIFIED="1451329938951" MOVED="1451329946530">
 <node TEXT="Work from Errington group" ID="ID_1690050024" CREATED="1451329816407" MODIFIED="1451330002869">
