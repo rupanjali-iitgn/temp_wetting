@@ -1,4 +1,4 @@
-<map version="docear 1.1" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/home/local/CSI/kr78neqo/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/">
+<map version="docear 1.1" project="151B657B699COWUDKPJMBV73Y7CUGM2FE9PK" project_last_home="file:/home/local/CSI/kr78neqo/Dropbox/Research/Projects/iitgn/proposals/temp_wetting/" dcr_id="1450463180897_6qgauh4sd8sqpqhzhhkavixlk">
 <!--To view this file, download Docear - The Academic Literature Suite from http://www.docear.org -->
 <node TEXT="Designing solid surfaces with desired temperature dependence of wetting behavior" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1450463414017"><hook NAME="MapStyle" layout="OUTLINE">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
@@ -50,7 +50,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11"/>
 <node TEXT="Scientific rationale" POSITION="right" ID="ID_268635931" CREATED="1450463418954" MODIFIED="1450465512918" HGAP="40" VSHIFT="-100">
 <edge COLOR="#ff0000"/>
 <node TEXT="The interaction between a solid surface and a liquid plays an important role in several natural and synthetic processes. An important phenomena in such systems is the wetting of a solid surface by liquid. The technological advances have enabled the development and application of solid-liquid interfaces  of increasingly microscopic dimensions. Further, there is a great scope for fine-tuning the chemical nature of solid surface at the molecular scale to achieve desired wetting behavior. Theoretical studies and computer simulations can help guide such manipulation. In this particular project we focus on the temperature dependence of the solid-liquid interfacial properties. Specifically, we will employ statistical mechanics to design solid surfaces that show desired thermal response of wetting. This will be achieved with the help of advanced molecular simulation techniques." ID="ID_1490725096" CREATED="1457086362062" MODIFIED="1457103848755"/>
@@ -194,34 +194,12 @@
 </node>
 <node TEXT="Work plan" POSITION="left" ID="ID_1615838882" CREATED="1450463946512" MODIFIED="1458151777818" HGAP="-560" VSHIFT="790">
 <edge COLOR="#ffff00"/>
-<node TEXT="Methods" ID="ID_1509493354" CREATED="1450463995842" MODIFIED="1458151769685" HGAP="-230" VSHIFT="31">
-<node TEXT="Experimental" ID="ID_176697614" CREATED="1451641322937" MODIFIED="1451645263973" HGAP="-215" VSHIFT="3">
-<node TEXT="Systems" ID="ID_222214319" CREATED="1451643485617" MODIFIED="1451644496558" HGAP="-150" VSHIFT="-50">
-<node TEXT="&quot;Packed-bed&quot; and flat-surface wetting studies on crystalline materials" ID="ID_890750199" CREATED="1451643885922" MODIFIED="1452105603230" HGAP="-479" VSHIFT="-1"/>
-</node>
-<node TEXT="Method of manipulating the hydrophilicity and hydrophocity" ID="ID_1528992532" CREATED="1452105611908" MODIFIED="1452105643083" HGAP="-450" VSHIFT="-30">
-<node TEXT="Radiation?" ID="ID_630039349" CREATED="1452105644893" MODIFIED="1452105656062" HGAP="-420" VSHIFT="-20"/>
-<node TEXT="Chemical treatment?" ID="ID_1162892636" CREATED="1452105657425" MODIFIED="1452105691841" HGAP="-470" VSHIFT="-10"/>
-<node TEXT="Coating?" ID="ID_1113661769" CREATED="1452105675396" MODIFIED="1452105687061" HGAP="-410" VSHIFT="10"/>
-</node>
-<node TEXT="Contact angle determination on flat surface" ID="ID_768785223" CREATED="1451644521916" MODIFIED="1451644840175" HGAP="-360" VSHIFT="-20"/>
-<node TEXT="Immersion calorimetry" ID="ID_1121131843" CREATED="1451644114030" MODIFIED="1451644160602" HGAP="-233" VSHIFT="20"/>
-<node TEXT="Surface area determination by some methods" ID="ID_627706002" CREATED="1451644164129" MODIFIED="1451644213389" HGAP="-377" VSHIFT="26"/>
-</node>
-<node TEXT="computational" ID="ID_872435313" CREATED="1451641343605" MODIFIED="1451645268474" HGAP="-200" VSHIFT="60">
-<node TEXT="Systems" ID="ID_1103117492" CREATED="1451644234090" MODIFIED="1451645216336" HGAP="-168" VSHIFT="-59">
-<node TEXT="Models of different crustal faces like 100, 001 etc." ID="ID_190203064" CREATED="1451645272210" MODIFIED="1452105559844" HGAP="-455"/>
-<node TEXT="Solutes positioned at l-v interfaces" ID="ID_808283525" CREATED="1452105529857" MODIFIED="1452105553560" HGAP="-380" VSHIFT="10"/>
-</node>
-<node TEXT="Simulations of different types of crystal faces. (These will be validated against the experimental studies)" ID="ID_1619461814" CREATED="1452105774948" MODIFIED="1452106181294" HGAP="-716" VSHIFT="-10"/>
-<node TEXT="Simulations with solutes positioned at l-v interfaces" ID="ID_1547495769" CREATED="1452105826761" MODIFIED="1452105968256" HGAP="-430" VSHIFT="30"/>
-<node TEXT="Theoretical analysis connecting the above two types of systems" ID="ID_1538917616" CREATED="1452105968887" MODIFIED="1452106124526" HGAP="-500" VSHIFT="20"/>
-</node>
+<node TEXT="Collection of data for (\gamma_{sv} - \gamma_{sl}) and \frac{d(\gamma_{sv} - \gamma_{sl})}{dT}. The objective here is to determine the trends in the above properties with respect to the parameters related to the solid surface. Experiments will be used to understand the effect of features that can be manipulated on a larger scale (greater than 100nm). The properties at the scale between few nanometers to hundreds of nanometers will be computed from well tested theoretical models. Molecular simulations will be used for features present from the atomistic scale to few nanometers where deviations from the common theoretical models are observed. In the molecular simulation studies, the focus will be more on the variation of the abovementioned properties with features of the solid surface instead of quantitative comparison with real systems. Therefore, the choice of models used for simulations and the employed system conditions will depend on the computational feasibility." ID="ID_392987275" CREATED="1450978922012" MODIFIED="1458290298045" MOVED="1458287769592">
+<node TEXT="We describe here the information that we plan to obtain from these studies. Let us denote the three surface features by capital letters A, B and C. A &quot;feature&quot; may be related to a particular characteristic of the surface like overall solid-fluid interaction or roughness. A particular feature may be manipulated by changing certain characteristics of the surface. For example, roughness may be manipulated by considering solid surfaces with different roughness factors. Let us say that the number of systems that are used to study the trends with respect to features A, B and C be denoted by a, b and c, respectively. Our first aim is then to collect the data to be represented on the plot of \frac{d(\gamma_{sv} - \gamma_{sl})}{dT} vs \gamma_{sv} - \gamma_{sl} as shown in the adjacent [figure]. In this figure, the points A_{1} to A_{a} represent the data obtained for &apos;a&apos; systems for determining the effect of surface feature A and, so on. These &apos;a&apos; points will contain data from simulations as well as experiments depending on the scale at which the feature A is investigated. For example, if A is surface roughness then molecular simulations will be used to study the effect on roughness at scales smaller than few nanometers whereas experiments will be used for larger scales. Also note that the data may contain the results obtained at different temperatures and for different fluids. The data as represented in the [figure] can then help us to characterize the trends observed in  ( \gamma_{sv} - \gamma_{sl},frac{d(\gamma_{sv} - \gamma_{sl})}{dT}) by manipulating each feature. Each of the &quot;features&quot; that we mentioned above are broad categories that can be manipulated by changing different surface characteristics. For example, a rough surface contains  different surface features like hills and valleys. The roughness feature can then be manipulated by changing the depth of the valleys or by changing the spacing between hills. If the points obtained by changing the former characteristic lie on a particular curve on the adjacent diagram then those obtained by changing later characteristic may follow a different curve. This is represented in the adjacent plot where the curves l_{1}^A and l_{2}^B represent the trends obtained by manipulating feature A in two different ways. From the collected data we want to identify such profiles that will help us identify the characteristics of the surface that needs to be modified to vary  \gamma_{sv} - \gamma_{sl} and frac{d(\gamma_{sv} - \gamma_{sl})}{dT} in a particular manner. Since the data also contains the information obtained from different fluids and at diiferent temperatures, the analysis will also provide insights into the variation of the above properties with fluid nature and temperature.  In the following paragraphs we describe the main surface features that we will look at." ID="ID_116998146" CREATED="1458290336069" MODIFIED="1458299599251"/>
 </node>
 <node TEXT="Time schedule" ID="ID_581300306" CREATED="1450464034600" MODIFIED="1450464045378" HGAP="-180" VSHIFT="10"/>
 <node TEXT="Use of research outcome" ID="ID_1195711759" CREATED="1450464054401" MODIFIED="1450464095942" HGAP="-240" VSHIFT="30"/>
 <node TEXT="Risk analysis" ID="ID_1268337594" CREATED="1450464106849" MODIFIED="1450464132710" HGAP="-170" VSHIFT="20"/>
-<node TEXT="" ID="ID_392987275" CREATED="1450978922012" MODIFIED="1450978922012"/>
 </node>
 <node TEXT="Expertise and preliminary results" POSITION="left" ID="ID_3125732" CREATED="1450464165608" MODIFIED="1450464737474" HGAP="-749" VSHIFT="20">
 <edge COLOR="#7c0000"/>
