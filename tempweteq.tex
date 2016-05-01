@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+ \geometry{a4paper,total={170mm,257mm},left=20mm,top=10mm,}
+\usepackage{graphicx}
+\rmfamily
+\mdseries
+\usepackage{amssymb,amsmath}
+\usepackage{catchfilebetweentags}
+\newcommand{\loadeq}[1]{%
+ \ExecuteMetaData[tempweteq.tex]{eq#1}%
+}
+\newcommand{\loadfig}[1]{%
+ \ExecuteMetaData[tempwetfig.tex]{fig#1}%
+}
+\title{tempweteq}
+\date{18042016}
+\author{kaustubh}
+\begin{document}
+ \maketitle
+
+%<*eq1>
+\begin{equation}\label{eqn1}
+ {V_{\mathrm{valley}}^{S} = A(\gamma_{\mathrm{sv}}) + C_{\mathrm{spread}}}
+\end{equation}
+%</eq1>
+%<*eq2>
+\begin{equation}\label{eqn2}
+ {V_{\mathrm{plateau}}^{S} = A(\gamma_{\mathrm{sl}} + \gamma_{\mathrm{lv}}) + C_{\mathrm{spread}}}
+\end{equation}
+%</eq2>
+%<*eq3>
+\begin{equation}\label{eqn3}
+ {V_{\mathrm{valley}}^{D} = A(\gamma_{\mathrm{sl}}) + C_{\mathrm{dry}}}
+\end{equation}
+%</eq3>
+%<*eq4>
+\begin{equation}\label{eqn4}
+ {V_{\mathrm{plateau}}^{D} = A(\gamma_{\mathrm{sv}} + \gamma_{\mathrm{lv}}) + C_{\mathrm{dry}}}
+\end{equation}
+%</eq4>
+%<*eq5>
+\begin{equation}\label{eqn5}
+{\frac{\mathrm{d}(\gamma_{\mathrm{sv}} - \gamma_{\mathrm{sl}})}{\mathrm{d}T} = -(s_{\mathrm{sv}}-s_{\mathrm{sl}})-(\Gamma_{\mathrm{sv}} -\Gamma_{\mathrm{sl}})\frac{\mathrm{d}\mu_{\mathrm{sat}}}{\mathrm{d}T}}
+\end{equation}
+%</eq5>
+%<*eq6>
+\begin{equation}\label{eqn6}
+{X_{\mathrm{sf}} = X_{\mathrm{total}} - X_{\mathrm{f}}}
+\end{equation}
+%</eq6>
+%<*eq7>
+\begin{equation}\label{eqn7}
+{\frac{\mathrm{d}\mu_{\mathrm{sat}}}{\mathrm{d}T} = \frac{\rho_{\mathrm{sat}}^{\mathrm{l}}    u_{\mathrm{sat}}^{\mathrm{l}} - \rho_{\mathrm{sat}}^{\mathrm{v}} u_{\mathrm{sat}}^{\mathrm{v}}}{\rho_{\mathrm{sat}}^{\mathrm{l}} - \rho_{\mathrm{sat}}^{\mathrm{v}}}}
+\end{equation}
+%</eq7>
+%<*eq8>
+\begin{equation}\label{eqn8}
+{s_{\mathrm{sv}} - s_{\mathrm{sl}} = \frac{-(\gamma_{\mathrm{sv}} - \gamma_{\mathrm{sl}}) + (e_{\mathrm{sv}} - e_{\mathrm{sl}}) + (\Gamma_{\mathrm{sv}} -\Gamma_{\mathrm{sl}})\mu_{\mathrm{sat}}}{T}} 
+\end{equation}
+%</eq8>
+%<*eq9>
+\begin{equation}\label{eqn9}
+{\frac{\mathrm{dcos}\theta}{\mathrm{d}T} = \frac{1}{\gamma_{\mathrm{lv}}} \frac{\mathrm{d}(\gamma_{\mathrm{sv}} - \gamma_{\mathrm{sl}})}{\mathrm{d}T} - \frac{\mathrm{1}}{\gamma_{\mathrm{lv}}^2} (\gamma_{\mathrm{sv}} - \gamma_{\mathrm{sl}})}
+\end{equation}
+%</eq9>
+%<*eq10>
+\begin{equation}\label{eqn10}
+ {\chi(r) =
+\int{dr' G(r,r')}}
+\end{equation}
+%</eq10>
+%<*eq11>
+\begin{equation}\label{eqn11}
+\chi(r) = \mathit{kT} \frac{\partial \rho(r)}{\partial \mu}
+\end{equation}
+%</eq11>
+%<*eq12>
+\begin{equation}\label{eqn12}
+{V(N;\boldsymbol{\lambda}) = F(N;\boldsymbol{\lambda}) - \mu N}
+\end{equation}
+%</eq12>
+%<*eq13>
+\begin{equation}\label{eqn13}
+{V(N_{\mathrm{plateau}}) - V(N_{\mathrm{min}}) = A (\gamma_{\mathrm{lv}} + \gamma_{\mathrm{sv}}
+- \gamma_{\mathrm{sl}})}
+\end{equation}
+%</eq13>
+%<*eq14>
+\begin{equation}\label{eqn14}
+ {\frac{\mathrm{d^2}V}{\mathrm{d}N^{\mathrm{2}}} = \frac{kT}{\langle\delta N^{\mathrm{2}}\rangle}}
+\end{equation}
+%</eq14>
+
+ \bibliography{_data/151B657B699COWUDKPJMBV73Y7CUGM2FE9PK/default_files/temp_wetting.bib}
+ \bibliographystyle{abbrv}
+\end{document}
