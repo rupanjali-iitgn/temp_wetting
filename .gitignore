@@ -3,6 +3,7 @@
 *.pptx
 *.log
 *.aux
+*.html
 literature_repository/
 plots/
 _data/ 
